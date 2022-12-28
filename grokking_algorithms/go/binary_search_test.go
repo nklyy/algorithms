@@ -31,7 +31,7 @@ func Test_binarySearchInts(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := BinarySearch(tt.args.list, tt.args.i); got != tt.want {
+			if got := binarySearch(tt.args.list, tt.args.i); got != tt.want {
 				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
 			}
 		})
@@ -67,7 +67,7 @@ func Test_binarySearchStrings(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := BinarySearch(tt.args.list, tt.args.i); got != tt.want {
+			if got := binarySearch(tt.args.list, tt.args.i); got != tt.want {
 				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
 			}
 		})

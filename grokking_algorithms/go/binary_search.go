@@ -4,7 +4,7 @@ type Signed interface {
 	~int | ~int8 | ~int16 | ~int32 | ~int64
 }
 
-func BinarySearch[T Signed | string](list []T, i T) int {
+func binarySearch[T Signed | string](list []T, i T) int {
 	low := 0
 	high := len(list) - 1
 
