@@ -42,7 +42,19 @@ func Test_twoSum(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := twoSum(tt.args.nums, tt.args.target); !reflect.DeepEqual(got, tt.want) {
+			if got := twoSumV1(tt.args.nums, tt.args.target); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
+			}
+		})
+
+		t.Run(tt.name, func(t *testing.T) {
+			if got := twoSumV2(tt.args.nums, tt.args.target); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
+			}
+		})
+
+		t.Run(tt.name, func(t *testing.T) {
+			if got := twoSumV3(tt.args.nums, tt.args.target); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
 			}
 		})
