@@ -1,7 +1,7 @@
 package main
 
 // Finds the smallest value in an array
-func findSmallest(arr []int) int {
+func findSmallest[T int | uint | string](arr []T) int {
 	smallest := arr[0]
 	smallestIndex := 0
 
@@ -16,8 +16,8 @@ func findSmallest(arr []int) int {
 }
 
 // Sort array
-func selectionSort(arr []int) []int {
-	newArr := make([]int, len(arr))
+func selectionSort[T int | uint | string](arr []T) []T {
+	newArr := make([]T, len(arr))
 
 	for i := range arr {
 		smallestIndex := findSmallest(arr)
