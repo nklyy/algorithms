@@ -13,7 +13,7 @@ func Test_binarySearchInts(t *testing.T) {
 		want int
 	}{
 		{
-			name: "search FOUND",
+			name: "found",
 			args: args{
 				list: []int64{2, 4, 5},
 				i:    2,
@@ -21,7 +21,7 @@ func Test_binarySearchInts(t *testing.T) {
 			want: 0,
 		},
 		{
-			name: "search NOT FOUND",
+			name: "not found",
 			args: args{
 				list: []int64{2, 4, 5},
 				i:    6,
@@ -49,7 +49,7 @@ func Test_binarySearchStrings(t *testing.T) {
 		want int
 	}{
 		{
-			name: "search FOUND",
+			name: "found",
 			args: args{
 				list: []string{"a", "b", "c"},
 				i:    "b",
@@ -57,7 +57,7 @@ func Test_binarySearchStrings(t *testing.T) {
 			want: 1,
 		},
 		{
-			name: "search FOUND",
+			name: "not found",
 			args: args{
 				list: []string{"a", "b", "c"},
 				i:    "d",
