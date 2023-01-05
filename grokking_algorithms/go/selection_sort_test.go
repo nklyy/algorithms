@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_selectionSortInts(t *testing.T) {
+func Test_selectionSortInt(t *testing.T) {
 	type args struct {
 		arr []int
 	}
@@ -39,7 +39,34 @@ func Test_selectionSortInts(t *testing.T) {
 	}
 }
 
-func Test_selectionSortStrings(t *testing.T) {
+func Test_selectionSortFloat(t *testing.T) {
+	type args struct {
+		arr []float32
+	}
+	tests := []struct {
+		name string
+		args args
+		want []float32
+	}{
+		{
+			name: "test 1",
+			args: args{
+				arr: []float32{0.2, 0.1, 0.5},
+			},
+			want: []float32{0.1, 0.2, 0.5},
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := selectionSort(tt.args.arr); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
+			}
+		})
+
+	}
+}
+
+func Test_selectionSortString(t *testing.T) {
 	type args struct {
 		arr []string
 	}

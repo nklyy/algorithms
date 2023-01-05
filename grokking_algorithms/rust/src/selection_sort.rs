@@ -31,6 +31,14 @@ mod tests {
     }
 
     #[test]
+    fn selection_sort_float() {
+        let num_slice = vec![0.2, 0.1, 0.5];
+        let result = selection_sort(num_slice);
+
+        assert_eq!(result, vec![0.1, 0.2, 0.5])
+    }
+
+    #[test]
     fn selection_sort_string() {
         let num_slice = vec!["c", "b", "f", "a"];
         let result = selection_sort(num_slice);
