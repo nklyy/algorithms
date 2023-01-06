@@ -15,7 +15,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn selection_sort_uint() {
+    fn test_selection_sort_uint() {
         let num_slice = vec![12, 2, 77, 33, 1, 0];
         let result = selection_sort(num_slice);
 
@@ -23,7 +23,7 @@ mod tests {
     }
 
     #[test]
-    fn selection_sort_int() {
+    fn test_selection_sort_int() {
         let num_slice = vec![-12, -2, -77, -33, -1];
         let result = selection_sort(num_slice);
 
@@ -31,7 +31,7 @@ mod tests {
     }
 
     #[test]
-    fn selection_sort_float() {
+    fn test_selection_sort_float() {
         let num_slice = vec![0.2, 0.1, 0.5];
         let result = selection_sort(num_slice);
 
@@ -39,7 +39,7 @@ mod tests {
     }
 
     #[test]
-    fn selection_sort_string() {
+    fn test_selection_sort_string() {
         let num_slice = vec!["c", "b", "f", "a"];
         let result = selection_sort(num_slice);
 
