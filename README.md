@@ -14,8 +14,8 @@
 ## Leetcode
 
 > ***Golang*** <br>
-1. [Two Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/1_TwoSum.go)
+1. [Two Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/two_sum.go)
 
 > ***Rust*** <br>
-<!-- 1. [Two Sum](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/binary_search.rs) -->
+1. [Two Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/rust/src/two_sum.rs)
 <hr>
