@@ -29,7 +29,7 @@ func Test_factorial(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := factorial(tt.args.x); got != tt.want {
-				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
+				t.Errorf("factorial() = %v, want %v", got, tt.want)
 			}
 		})
 	}
@@ -69,7 +69,7 @@ func Test_factorialLoop(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := factorialLoop(tt.args.x); got != tt.want {
-				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
+				t.Errorf("factorialLoop() = %v, want %v", got, tt.want)
 			}
 		})
 	}
