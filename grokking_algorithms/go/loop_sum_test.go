@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func Test_sumLoop(t *testing.T) {
+func Test_loopSum(t *testing.T) {
 	type args struct {
 		arr []int
 	}
@@ -28,8 +28,8 @@ func Test_sumLoop(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := sumLoop(tt.args.arr); got != tt.want {
-				t.Errorf("sumLoop() = %v, want %v", got, tt.want)
+			if got := loopSum(tt.args.arr); got != tt.want {
+				t.Errorf("loopSum() = %v, want %v", got, tt.want)
 			}
 		})
 
