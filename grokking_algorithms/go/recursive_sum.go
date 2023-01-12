@@ -1,9 +1,9 @@
 package main
 
-func recursiveSum(arr []int) int {
-	if len(arr) == 1 {
-		return arr[0]
+func recursiveSum(lst []int) int {
+	if len(lst) == 1 {
+		return lst[0]
 	}
 
-	return arr[0] + recursiveSum(arr[1:])
+	return lst[0] + recursiveSum(lst[1:])
 }

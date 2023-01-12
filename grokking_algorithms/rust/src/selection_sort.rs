@@ -1,13 +1,13 @@
 #[allow(dead_code)]
-pub fn selection_sort<T: PartialOrd + Copy>(mut arr: Vec<T>) -> Vec<T> {
-    for i in 0..arr.len() {
-        for j in i + 1..arr.len() {
-            if arr[j] < arr[i] {
-                arr.swap(i, j)
+pub fn selection_sort<T: PartialOrd + Copy>(mut lst: Vec<T>) -> Vec<T> {
+    for i in 0..lst.len() {
+        for j in i + 1..lst.len() {
+            if lst[j] < lst[i] {
+                lst.swap(i, j)
             }
         }
     }
-    arr
+    lst
 }
 
 #[cfg(test)]

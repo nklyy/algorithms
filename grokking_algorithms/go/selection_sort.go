@@ -1,13 +1,12 @@
 package main
 
-// Finds the smallest value in an array
-func findSmallest[T Numbers | string](arr []T) int {
-	smallest := arr[0]
+func findSmallest[T Numbers | string](lst []T) int {
+	smallest := lst[0]
 	smallestIndex := 0
 
-	for i := 1; i < len(arr); i++ {
-		if arr[i] < smallest {
-			smallest = arr[i]
+	for i := 1; i < len(lst); i++ {
+		if lst[i] < smallest {
+			smallest = lst[i]
 			smallestIndex = i
 		}
 	}
@@ -15,16 +14,15 @@ func findSmallest[T Numbers | string](arr []T) int {
 	return smallestIndex
 }
 
-// Sort array
-func selectionSort[T Numbers | string](arr []T) []T {
-	newArr := make([]T, len(arr))
+func selectionSort[T Numbers | string](lst []T) []T {
+	newLst := make([]T, len(lst))
 
-	for i := range arr {
-		smallestIndex := findSmallest(arr)
-		newArr[i] = arr[smallestIndex]
+	for i := range lst {
+		smallestIndex := findSmallest(lst)
+		newLst[i] = lst[smallestIndex]
 
-		arr = append(arr[:smallestIndex], arr[smallestIndex+1:]...)
+		lst = append(lst[:smallestIndex], lst[smallestIndex+1:]...)
 	}
 
-	return newArr
+	return newLst
 }

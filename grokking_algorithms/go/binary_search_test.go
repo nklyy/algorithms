@@ -4,8 +4,8 @@ import "testing"
 
 func Test_binarySearchInts(t *testing.T) {
 	type args struct {
-		list []int64
-		i    int64
+		lst []int64
+		i   int64
 	}
 	tests := []struct {
 		name string
@@ -15,23 +15,23 @@ func Test_binarySearchInts(t *testing.T) {
 		{
 			name: "found",
 			args: args{
-				list: []int64{2, 4, 5},
-				i:    2,
+				lst: []int64{2, 4, 5},
+				i:   2,
 			},
 			want: 0,
 		},
 		{
 			name: "not found",
 			args: args{
-				list: []int64{2, 4, 5},
-				i:    6,
+				lst: []int64{2, 4, 5},
+				i:   6,
 			},
 			want: -1,
 		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := binarySearch(tt.args.list, tt.args.i); got != tt.want {
+			if got := binarySearch(tt.args.lst, tt.args.i); got != tt.want {
 				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
 			}
 		})
@@ -40,8 +40,8 @@ func Test_binarySearchInts(t *testing.T) {
 
 func Test_binarySearchStrings(t *testing.T) {
 	type args struct {
-		list []string
-		i    string
+		lst []string
+		i   string
 	}
 	tests := []struct {
 		name string
@@ -51,23 +51,23 @@ func Test_binarySearchStrings(t *testing.T) {
 		{
 			name: "found",
 			args: args{
-				list: []string{"a", "b", "c"},
-				i:    "b",
+				lst: []string{"a", "b", "c"},
+				i:   "b",
 			},
 			want: 1,
 		},
 		{
 			name: "not found",
 			args: args{
-				list: []string{"a", "b", "c"},
-				i:    "d",
+				lst: []string{"a", "b", "c"},
+				i:   "d",
 			},
 			want: -1,
 		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := binarySearch(tt.args.list, tt.args.i); got != tt.want {
+			if got := binarySearch(tt.args.lst, tt.args.i); got != tt.want {
 				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
 			}
 		})

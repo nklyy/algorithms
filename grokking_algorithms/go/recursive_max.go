@@ -1,16 +1,16 @@
 package main
 
-func recursiveMax(arr []int) int {
-	if len(arr) == 2 {
-		if arr[0] > arr[1] {
-			return arr[0]
+func recursiveMax(lst []int) int {
+	if len(lst) == 2 {
+		if lst[0] > lst[1] {
+			return lst[0]
 		}
-		return arr[1]
+		return lst[1]
 	}
 
-	max := recursiveMax(arr[1:])
-	if arr[0] > max {
-		return arr[0]
+	max := recursiveMax(lst[1:])
+	if lst[0] > max {
+		return lst[0]
 	}
 
 	return max

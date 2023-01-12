@@ -1,9 +1,9 @@
 package main
 
-func loopSum(arr []int) int {
+func loopSum(lst []int) int {
 	r := 0
 
-	for _, v := range arr {
+	for _, v := range lst {
 		r += v
 	}
 

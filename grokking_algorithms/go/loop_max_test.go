@@ -4,7 +4,7 @@ import "testing"
 
 func Test_loopMax(t *testing.T) {
 	type args struct {
-		arr []int
+		lst []int
 	}
 	tests := []struct {
 		name string
@@ -14,21 +14,21 @@ func Test_loopMax(t *testing.T) {
 		{
 			name: "test 1",
 			args: args{
-				arr: []int{2, 4, 6},
+				lst: []int{2, 4, 6},
 			},
 			want: 6,
 		},
 		{
 			name: "test 2",
 			args: args{
-				arr: []int{-2, 4, -6},
+				lst: []int{-2, 4, -6},
 			},
 			want: 4,
 		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := loopMax(tt.args.arr); got != tt.want {
+			if got := loopMax(tt.args.lst); got != tt.want {
 				t.Errorf("loopMax() = %v, want %v", got, tt.want)
 			}
 		})

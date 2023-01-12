@@ -1,23 +1,23 @@
 package main
 
-func quickSort[T Numbers | string](arr []T) []T {
-	if len(arr) < 2 {
-		return arr
+func quickSort[T Numbers | string](lst []T) []T {
+	if len(lst) < 2 {
+		return lst
 	}
 
-	if len(arr) == 2 {
-		if arr[0] > arr[1] {
-			arr[0], arr[1] = arr[1], arr[0]
+	if len(lst) == 2 {
+		if lst[0] > lst[1] {
+			lst[0], lst[1] = lst[1], lst[0]
 		}
 
-		return arr
+		return lst
 	}
 
-	pivot := arr[0]
+	pivot := lst[0]
 	less := []T{}
 	greater := []T{}
 
-	for _, v := range arr[1:] {
+	for _, v := range lst[1:] {
 		if v < pivot {
 			less = append(less, v)
 		} else {
@@ -33,15 +33,15 @@ func quickSort[T Numbers | string](arr []T) []T {
 	return result
 }
 
-// func quickSort[T Numbers | string](arr []T) []T {
-// 	if len(arr) < 2 {
-// 		return arr
+// func quickSort[T Numbers | string](lst []T) []T {
+// 	if len(lst) < 2 {
+// 		return lst
 // 	} else {
-// 		pivot := arr[0]
+// 		pivot := lst[0]
 // 		less := []T{}
 // 		greater := []T{}
 
-// 		for _, v := range arr[1:] {
+// 		for _, v := range lst[1:] {
 // 			if v < pivot {
 // 				less = append(less, v)
 // 			} else {
