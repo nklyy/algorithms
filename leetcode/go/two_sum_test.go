@@ -7,7 +7,7 @@ import (
 
 func Test_twoSum(t *testing.T) {
 	type args struct {
-		nums   []int
+		lst    []int
 		target int
 	}
 	tests := []struct {
@@ -18,7 +18,7 @@ func Test_twoSum(t *testing.T) {
 		{
 			name: "test 1",
 			args: args{
-				nums:   []int{2, 7, 11, 15},
+				lst:    []int{2, 7, 11, 15},
 				target: 9,
 			},
 			want: []int{0, 1},
@@ -26,7 +26,7 @@ func Test_twoSum(t *testing.T) {
 		{
 			name: "test 2",
 			args: args{
-				nums:   []int{3, 2, 4},
+				lst:    []int{3, 2, 4},
 				target: 6,
 			},
 			want: []int{1, 2},
@@ -34,7 +34,7 @@ func Test_twoSum(t *testing.T) {
 		{
 			name: "test 3",
 			args: args{
-				nums:   []int{2, 11, 7, 15},
+				lst:    []int{2, 11, 7, 15},
 				target: 9,
 			},
 			want: []int{0, 2},
@@ -42,19 +42,19 @@ func Test_twoSum(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := twoSumV1(tt.args.nums, tt.args.target); !reflect.DeepEqual(got, tt.want) {
+			if got := twoSumV1(tt.args.lst, tt.args.target); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("twoSumV1() = %v, want %v", got, tt.want)
 			}
 		})
 
 		t.Run(tt.name, func(t *testing.T) {
-			if got := twoSumV2(tt.args.nums, tt.args.target); !reflect.DeepEqual(got, tt.want) {
+			if got := twoSumV2(tt.args.lst, tt.args.target); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("twoSumV2() = %v, want %v", got, tt.want)
 			}
 		})
 
 		t.Run(tt.name, func(t *testing.T) {
-			if got := twoSumV3(tt.args.nums, tt.args.target); !reflect.DeepEqual(got, tt.want) {
+			if got := twoSumV3(tt.args.lst, tt.args.target); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("twoSumV3() = %v, want %v", got, tt.want)
 			}
 		})

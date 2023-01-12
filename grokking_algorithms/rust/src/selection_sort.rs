@@ -16,32 +16,32 @@ mod tests {
 
     #[test]
     fn test_selection_sort_uint() {
-        let num_slice = vec![12, 2, 77, 33, 1, 0];
-        let result = selection_sort(num_slice);
+        let lst = vec![12, 2, 77, 33, 1, 0];
+        let result = selection_sort(lst);
 
         assert_eq!(result, vec![0, 1, 2, 12, 33, 77])
     }
 
     #[test]
     fn test_selection_sort_int() {
-        let num_slice = vec![-12, -2, -77, -33, -1];
-        let result = selection_sort(num_slice);
+        let lst = vec![-12, -2, -77, -33, -1];
+        let result = selection_sort(lst);
 
         assert_eq!(result, vec![-77, -33, -12, -2, -1])
     }
 
     #[test]
     fn test_selection_sort_float() {
-        let num_slice = vec![0.2, 0.1, 0.5];
-        let result = selection_sort(num_slice);
+        let lst = vec![0.2, 0.1, 0.5];
+        let result = selection_sort(lst);
 
         assert_eq!(result, vec![0.1, 0.2, 0.5])
     }
 
     #[test]
     fn test_selection_sort_string() {
-        let num_slice = vec!["c", "b", "f", "a"];
-        let result = selection_sort(num_slice);
+        let lst = vec!["c", "b", "f", "a"];
+        let result = selection_sort(lst);
 
         assert_eq!(result, vec!["a", "b", "c", "f"])
     }
