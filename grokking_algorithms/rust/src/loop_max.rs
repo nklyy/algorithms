@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn loop_max(lst: Vec<i64>) -> i64 {
     let mut max = lst[0];
 
