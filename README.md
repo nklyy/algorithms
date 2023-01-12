@@ -4,8 +4,13 @@
 
 > ***Golang*** <br>
 1. [Binary Search](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/binary_search.go)
-2. [Selection Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/selection_sort.go)
-3. [Factorial](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/factorial.go)
+2. [Recursive Binary Search](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/recursive_binary_search.go)
+3. [Selection Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/selection_sort.go)
+4. [Factorial](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/factorial.go)
+5. [Loop Sum](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/loop_sum.go)
+6. [Recursive Sum](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/recursive_sum.go)
+7. [Loop Max](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/loop_max.go)
+8. [Recursive Max](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/recursive_max.go)
 
 > ***Rust*** <br>
 1. [Binary Search](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/binary_search.rs)
