@@ -15,8 +15,14 @@
 
 > ***Rust*** <br>
 1. [Binary Search](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/binary_search.rs)
-2. [Selection Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/selection_sort.rs)
-3. [Factorial](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/factorial.rs)
+2. [Recursive Binary Search](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/recursive_binary_search.rs)
+3. [Selection Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/selection_sort.rs)
+4. [Factorial](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/factorial.rs)
+5. [Loop Sum](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/loop_sum.rs)
+6. [Recursive Sum](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/recursive_sum.rs)
+7. [Loop Max](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/loop_max.rs)
+8. [Recursive Max](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/recursive_max.rs)
+9. [Quick Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/quick_sort.rs)
 <hr>
 
 ## Leetcode
