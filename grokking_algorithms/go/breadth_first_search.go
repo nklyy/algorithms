@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func isSeller(name string) bool {
+func isSellerBfs(name string) bool {
 	return name[len(name)-1] == 'm'
 }
 
-func isSearched(person string, searched []string) bool {
+func isSearchedBfs(person string, searched []string) bool {
 	for _, n := range searched {
 		if n == person {
 			return true
@@ -27,8 +27,8 @@ func breadthFirstSearch(graph map[string][]string, name string) bool {
 		person := queue[0]
 		queue = queue[1:]
 
-		if !isSearched(person, searched) {
-			if isSeller(person) {
+		if !isSearchedBfs(person, searched) {
+			if isSellerBfs(person) {
 				fmt.Println("You fund mango seller:", person)
 				return true
 			}
