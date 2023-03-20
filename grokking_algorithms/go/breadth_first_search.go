@@ -15,7 +15,7 @@ func isSearched(person string, searched []string) bool {
 	return false
 }
 
-func breadthSearch(graph map[string][]string, name string) bool {
+func breadthFirstSearch(graph map[string][]string, name string) bool {
 	// var queue []string
 	// queue = append(queue, graph[name]...)
 
