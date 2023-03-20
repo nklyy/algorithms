@@ -40,3 +40,24 @@ func breadthFirstSearch(graph map[string][]string, name string) bool {
 
 	return false
 }
+
+func breadthFirstSearchV2(graph map[string][]string, v, t string) bool {
+	queue := []string{v}
+	searched := []string{}
+
+	for len(queue) != 0 {
+		neighbor := queue[0]
+		queue = queue[1:]
+
+		if !isSearchedBfs(neighbor, searched) {
+			if neighbor == t {
+				return true
+			}
+
+			queue = append(queue, graph[neighbor]...)
+			searched = append(searched, neighbor)
+		}
+	}
+
+	return false
+}

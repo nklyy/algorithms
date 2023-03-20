@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func isSellerDfs(name string) bool {
 	if name == "you" {
@@ -35,9 +37,29 @@ func depthFirstSearch(graph map[string][]string, name string) bool {
 
 	for _, person := range graph[name] {
 		if !isSearchedDfs(person, searched) {
-			foundSeller := depthFirstSearch(graph, person)
+			if foundSeller := depthFirstSearch(graph, person); foundSeller {
+				return true
+			}
+		}
+	}
 
-			if foundSeller {
+	return false
+}
+
+func depthFirstSearchV2(graph map[string][]string, v, t string) bool {
+	if v == t {
+		return true
+	}
+
+	if isSearchedDfs(v, searched) {
+		return false
+	}
+
+	searched = append(searched, v)
+
+	for _, neighbor := range graph[v] {
+		if !isSearchedDfs(neighbor, searched) {
+			if foundSeller := depthFirstSearchV2(graph, neighbor, t); foundSeller {
 				return true
 			}
 		}
