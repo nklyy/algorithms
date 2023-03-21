@@ -1,0 +1,29 @@
+name: testing-grokking
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test-go:
+    runs-on: ubuntu-latest
+    name: Run tests
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run test
+        run: |
+          cd grokking_algorithms/go
+          go test
+          
+  test-rust:
+    runs-on: ubuntu-latest
+    name: Run tests
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run test
+        run: |
+          cd grokking_algorithms/rust
+          cargo test

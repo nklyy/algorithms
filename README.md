@@ -1,4 +1,6 @@
 # Algorithms
+<img src="https://github.com/nklyy/algorithms/workflows/testing-grokking/badge.svg?branch=master"><br>
+<img src="https://github.com/nklyy/algorithms/workflows/testing-leetcode/badge.svg?branch=master"><br>
 
 ## Grokking-algorithms
 
