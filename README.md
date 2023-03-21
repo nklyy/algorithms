@@ -12,6 +12,9 @@
 7. [Loop Max](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/loop_max.go)
 8. [Recursive Max](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/recursive_max.go)
 9. [Quick Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/quick_sort.go)
+10. [BFS](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/breadth_first_search.go)
+11. [DFS](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/depth_first_search.go)
+12. [Topology Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/topology_sort.go)
 
 > ***Rust*** <br>
 1. [Binary Search](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/binary_search.rs)
