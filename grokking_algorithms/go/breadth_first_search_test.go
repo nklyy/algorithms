@@ -3,16 +3,16 @@ package main
 import "testing"
 
 func Test_breadthFirstSearch(t *testing.T) {
-	graph := make(map[string][]string)
-	graph["you"] = []string{"alice", "bob", "claire"}
-	graph["bob"] = []string{"anuj", "peggy"}
-	graph["alice"] = []string{"peggy"}
-	graph["claire"] = []string{"thom", "jonny"}
-	graph["anuj"] = []string{}
-	graph["peggy"] = []string{}
-	graph["thom"] = []string{}
-	graph["jonny"] = []string{}
-
+	graph := map[string][]string{
+		"you":    {"alice", "bob", "claire"},
+		"bob":    {"anuj", "peggy"},
+		"alice":  {"peggy"},
+		"claire": {"thom", "jonny"},
+		"anuj":   {},
+		"peggy":  {},
+		"thom":   {},
+		"jonny":  {},
+	}
 	type args struct {
 		graph map[string][]string
 		name  string
@@ -49,18 +49,19 @@ func Test_breadthFirstSearch(t *testing.T) {
 }
 
 func Test_breadthFirstSearchV2(t *testing.T) {
-	graph := make(map[string][]string)
-	graph["A"] = []string{"E", "B", "C"}
-	graph["E"] = []string{"I", "W"}
-	graph["B"] = []string{"W", "D"}
-	graph["C"] = []string{"U"}
-	graph["I"] = []string{"Y", "U"}
-	graph["W"] = []string{}
-	graph["D"] = []string{}
-	graph["Y"] = []string{"O"}
-	graph["U"] = []string{"F"}
-	graph["O"] = []string{}
-	graph["F"] = []string{}
+	graph := map[string][]string{
+		"A": {"E", "B", "C"},
+		"E": {"I", "W"},
+		"B": {"W", "D"},
+		"C": {"U"},
+		"I": {"Y", "U"},
+		"W": {},
+		"D": {},
+		"Y": {"O"},
+		"U": {"F"},
+		"O": {},
+		"F": {},
+	}
 
 	type args struct {
 		graph map[string][]string

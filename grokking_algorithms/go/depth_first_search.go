@@ -4,40 +4,21 @@ import (
 	"fmt"
 )
 
-func isSellerDfs(name string) bool {
-	if name == "you" {
-		return false
-	}
-
-	return name[len(name)-1] == 'm'
-}
-
-func isSearchedDfs(person string, searched []string) bool {
-	for _, n := range searched {
-		if n == person {
-			return true
-		}
-	}
-	return false
-}
-
-var searched []string
-
-func depthFirstSearch(graph map[string][]string, name string) bool {
-	if isSellerDfs(name) {
+func depthFirstSearch(graph map[string][]string, name string, visited []string) bool {
+	if isSeller(name) {
 		fmt.Println("You fund mango seller:", name)
 		return true
 	}
 
-	if isSearchedDfs(name, searched) {
+	if contains(name, visited) {
 		return false
 	}
 
-	searched = append(searched, name)
+	visited = append(visited, name)
 
-	for _, person := range graph[name] {
-		if !isSearchedDfs(person, searched) {
-			if foundSeller := depthFirstSearch(graph, person); foundSeller {
+	for _, neighbor := range graph[name] {
+		if !contains(neighbor, visited) {
+			if foundSeller := depthFirstSearch(graph, neighbor, visited); foundSeller {
 				return true
 			}
 		}
@@ -46,20 +27,20 @@ func depthFirstSearch(graph map[string][]string, name string) bool {
 	return false
 }
 
-func depthFirstSearchV2(graph map[string][]string, v, t string) bool {
+func depthFirstSearchV2[K comparable](graph map[K][]K, v, t K, visited []K) bool {
 	if v == t {
 		return true
 	}
 
-	if isSearchedDfs(v, searched) {
+	if contains(v, visited) {
 		return false
 	}
 
-	searched = append(searched, v)
+	visited = append(visited, v)
 
 	for _, neighbor := range graph[v] {
-		if !isSearchedDfs(neighbor, searched) {
-			if foundSeller := depthFirstSearchV2(graph, neighbor, t); foundSeller {
+		if !contains(neighbor, visited) {
+			if found := depthFirstSearchV2(graph, neighbor, t, visited); found {
 				return true
 			}
 		}
