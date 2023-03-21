@@ -8,22 +8,22 @@ on:
 jobs:
   test-go:
     runs-on: ubuntu-latest
-    name: Run tests
+    name: Run tests Golang
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Run test Golang
+      - name: Run test
         run: |
           cd leetcode/go
           go test
           
   test-rust:
     runs-on: ubuntu-latest
-    name: Run tests
+    name: Run tests Rust
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Run test Rust
+      - name: Run test
         run: |
           cd leetcode/rust
           cargo test
