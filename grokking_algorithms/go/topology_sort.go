@@ -1,22 +1,22 @@
 package main
 
-type Graph struct {
+type TopologyGraph struct {
 	graph map[int][]int
 	V     int // number of vertices
 }
 
-func NewGraph(v int) Graph {
-	return Graph{
+func NewGraph(v int) TopologyGraph {
+	return TopologyGraph{
 		graph: make(map[int][]int),
 		V:     v,
 	}
 }
 
-func (g *Graph) addEdge(u, v int) {
+func (g *TopologyGraph) addEdge(u, v int) {
 	g.graph[u] = append(g.graph[u], v)
 }
 
-func (g *Graph) topologySortUtil(v int, visited []bool, stack *[]int) {
+func (g *TopologyGraph) topologySortUtil(v int, visited []bool, stack *[]int) {
 	visited[v] = true
 
 	for _, i := range g.graph[v] {
@@ -28,7 +28,7 @@ func (g *Graph) topologySortUtil(v int, visited []bool, stack *[]int) {
 	*stack = append(*stack, v)
 }
 
-func (g *Graph) topologySort() []int {
+func (g *TopologyGraph) topologySort() []int {
 	visited := make([]bool, g.V)
 	stack := []int{}
 

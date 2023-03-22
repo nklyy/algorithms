@@ -31,7 +31,7 @@ func Test_topologySort(t *testing.T) {
 	graph3.addEdge(3, 3)
 
 	type args struct {
-		graph Graph
+		graph TopologyGraph
 	}
 	tests := []struct {
 		name string
