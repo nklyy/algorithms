@@ -9,33 +9,33 @@ type QPair struct {
 	w    int
 }
 
-type Edge struct {
+type DijkstraEdge struct {
 	to int
 	w  int
 }
 
 type DijkstraGraph struct {
-	graph [][]Edge
+	graph [][]DijkstraEdge
 	V     int // number of vertices
 }
 
 func NewDijkstraGraph(v int) DijkstraGraph {
 	return DijkstraGraph{
-		graph: make([][]Edge, v),
+		graph: make([][]DijkstraEdge, v),
 		V:     v,
 	}
 }
 
-func (g *DijkstraGraph) addEdge(u, v, w int) {
-	g.graph[u] = append(g.graph[u], Edge{to: v, w: w})
-	g.graph[v] = append(g.graph[v], Edge{to: u, w: w})
+func (g *DijkstraGraph) addEdge(s, d, w int) {
+	g.graph[s] = append(g.graph[s], DijkstraEdge{to: d, w: w})
+	g.graph[d] = append(g.graph[d], DijkstraEdge{to: s, w: w})
 }
 
 func (g *DijkstraGraph) dijkstra(src int) []int {
 	var distances = make([]int, g.V)
 
 	for i := 0; i < g.V; i++ {
-		distances[i] = math.MaxInt32
+		distances[i] = math.MaxInt64
 	}
 
 	queue := []QPair{}
