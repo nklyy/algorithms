@@ -28,6 +28,8 @@ func NewDijkstraGraph(v int) DijkstraGraph {
 
 func (g *DijkstraGraph) addEdge(s, d, w int) {
 	g.graph[s] = append(g.graph[s], DijkstraEdge{to: d, w: w})
+
+	// comment this line if you want to use (Directed graph)
 	g.graph[d] = append(g.graph[d], DijkstraEdge{to: s, w: w})
 }
 

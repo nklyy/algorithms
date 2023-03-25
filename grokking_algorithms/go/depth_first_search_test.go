@@ -42,7 +42,7 @@ func Test_depthFirstSearch(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := depthFirstSearch(tt.args.graph, tt.args.name, []string{}); got != tt.want {
+			if got := findSellerDFS(tt.args.graph, tt.args.name, []string{}); got != tt.want {
 				t.Errorf("depthFirstSearch() = %v, want %v", got, tt.want)
 			}
 		})
@@ -95,7 +95,7 @@ func Test_depthFirstSearchV2(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := depthFirstSearchV2(tt.args.graph, tt.args.v, tt.args.t, []string{}); got != tt.want {
+			if got := depthFirstSearch(tt.args.graph, tt.args.v, tt.args.t, []string{}); got != tt.want {
 				t.Errorf("depthFirstSearchV2() = %v, want %v", got, tt.want)
 			}
 		})

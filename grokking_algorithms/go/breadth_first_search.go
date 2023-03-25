@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func breadthFirstSearch(graph map[string][]string, name string) bool {
+func findSellerBFS(graph map[string][]string, name string) bool {
 	// var queue []string
 	// queue = append(queue, graph[name]...)
 
@@ -28,7 +28,7 @@ func breadthFirstSearch(graph map[string][]string, name string) bool {
 	return false
 }
 
-func breadthFirstSearchV2[K comparable](graph map[K][]K, v, t K) bool {
+func breadthFirstSearch[K comparable](graph map[K][]K, v, t K) bool {
 	queue := []K{v}
 	visited := []K{}
 

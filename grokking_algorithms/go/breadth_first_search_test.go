@@ -41,7 +41,7 @@ func Test_breadthFirstSearch(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := breadthFirstSearch(tt.args.graph, tt.args.name); got != tt.want {
+			if got := findSellerBFS(tt.args.graph, tt.args.name); got != tt.want {
 				t.Errorf("breadthFirstSearch() = %v, want %v", got, tt.want)
 			}
 		})
@@ -94,7 +94,7 @@ func Test_breadthFirstSearchV2(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := breadthFirstSearchV2(tt.args.graph, tt.args.v, tt.args.t); got != tt.want {
+			if got := breadthFirstSearch(tt.args.graph, tt.args.v, tt.args.t); got != tt.want {
 				t.Errorf("breadthFirstSearchV2() = %v, want %v", got, tt.want)
 			}
 		})
