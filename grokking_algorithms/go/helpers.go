@@ -16,3 +16,12 @@ func isSeller(name string) bool {
 
 	return name[len(name)-1] == 'm'
 }
+
+func createMatrix(rows, cols int) [][]int {
+	cell := make([][]int, rows)
+	for i := range cell {
+		cell[i] = make([]int, cols)
+	}
+
+	return cell
+}
