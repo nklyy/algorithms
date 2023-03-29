@@ -36,8 +36,8 @@
 
 > ***Golang*** <br>
 1. [Two Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/two_sum.go)
-278. [First Bad Version]
-704. [Binary Search]
+278. [First Bad Version](https://github.com/nklyy/algorithms/blob/master/leetcode/go/first_bad_version.go)
+704. [Binary Search](https://github.com/nklyy/algorithms/blob/master/leetcode/go/binary_search.go)
 
 
 > ***Rust*** <br>
