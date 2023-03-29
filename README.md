@@ -19,6 +19,8 @@
 12. [Topology Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/topology_sort.go)
 13. [Dijkstra](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/dijkstra.go)
 14. [Bellman Ford](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/bellman_ford.go)
+15. [Substring](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/substring.go)
+16. [Subsequence](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/go/subsequence.go)
 
 > ***Rust*** <br>
 1. [Binary Search](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/binary_search.rs)
