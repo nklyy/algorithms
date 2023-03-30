@@ -5,7 +5,7 @@ import "testing"
 func Test_binarySearch(t *testing.T) {
 	type args struct {
 		lst []int
-		i   int
+		n   int
 	}
 	tests := []struct {
 		name string
@@ -16,7 +16,7 @@ func Test_binarySearch(t *testing.T) {
 			name: "found",
 			args: args{
 				lst: []int{2, 4, 5},
-				i:   2,
+				n:   2,
 			},
 			want: 0,
 		},
@@ -24,14 +24,14 @@ func Test_binarySearch(t *testing.T) {
 			name: "not found",
 			args: args{
 				lst: []int{2, 4, 5},
-				i:   6,
+				n:   6,
 			},
 			want: -1,
 		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := search(tt.args.lst, tt.args.i); got != tt.want {
+			if got := search(tt.args.lst, tt.args.n); got != tt.want {
 				t.Errorf("binarySearch() = %v, want %v", got, tt.want)
 			}
 		})
