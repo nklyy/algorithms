@@ -37,12 +37,12 @@
 ## Leetcode
 
 > ***Golang*** <br>
-- 1 [Two Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/two_sum.go)
-- 35 [Search Insert Position](https://github.com/nklyy/algorithms/blob/master/leetcode/go/search_insert.go)
-- 189 [Rotate Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/rotate_array.go)
-- 278 [First Bad Version](https://github.com/nklyy/algorithms/blob/master/leetcode/go/first_bad_version.go)
-- 704 [Binary Search](https://github.com/nklyy/algorithms/blob/master/leetcode/go/binary_search.go)
-- 977 [Squares of a Sorted Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/sorted_squares.go)
+- [1](https://leetcode.com/problems/two-sum/) [Two Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/two_sum.go)
+- [35](https://leetcode.com/problems/search-insert-position/) [Search Insert Position](https://github.com/nklyy/algorithms/blob/master/leetcode/go/search_insert.go)
+- [189](https://leetcode.com/problems/rotate-array/) [Rotate Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/rotate_array.go)
+- [278](https://leetcode.com/problems/first-bad-version/) [First Bad Version](https://github.com/nklyy/algorithms/blob/master/leetcode/go/first_bad_version.go)
+- [704](https://leetcode.com/problems/binary-search/) [Binary Search](https://github.com/nklyy/algorithms/blob/master/leetcode/go/binary_search.go)
+- [977](https://leetcode.com/problems/squares-of-a-sorted-array/) [Squares of a Sorted Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/sorted_squares.go)
 
 
 > ***Rust*** <br>
