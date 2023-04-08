@@ -39,6 +39,7 @@
 > ***Golang*** <br>
 - 1 [Two Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/two_sum.go)
 - 35 [Search Insert Position](https://github.com/nklyy/algorithms/blob/master/leetcode/go/search_insert.go)
+- 189 [Rotate Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/rotate_array.go)
 - 278 [First Bad Version](https://github.com/nklyy/algorithms/blob/master/leetcode/go/first_bad_version.go)
 - 704 [Binary Search](https://github.com/nklyy/algorithms/blob/master/leetcode/go/binary_search.go)
 - 977 [Squares of a Sorted Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/sorted_squares.go)
