@@ -1,4 +1,5 @@
 mod binary_search;
+mod breadth_first_search;
 mod factorial;
 mod loop_max;
 mod loop_sum;
