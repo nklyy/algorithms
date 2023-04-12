@@ -32,6 +32,7 @@
 - 7 [Loop Max](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/loop_max.rs)
 - 8 [Recursive Max](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/recursive_max.rs)
 - 9 [Quick Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/quick_sort.rs)
+- 10 [BFS](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/breadth_first_search.rs)
 <hr>
 
 ## Leetcode
