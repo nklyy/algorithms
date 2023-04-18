@@ -1,6 +1,7 @@
 use std::{collections::HashMap, fmt::Debug, hash::Hash};
 
-pub fn depth_first_search<T>(graph: &HashMap<T, Vec<T>>, v: &T, t: &T, visited: &mut Vec<T>) -> bool
+#[allow(dead_code)]
+fn depth_first_search<T>(graph: &HashMap<T, Vec<T>>, v: &T, t: &T, visited: &mut Vec<T>) -> bool
 where
     T: PartialOrd + Eq + Hash + Clone + Debug,
 {
