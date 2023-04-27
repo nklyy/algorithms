@@ -9,6 +9,7 @@ mod recursive_binary_search;
 mod recursive_max;
 mod recursive_sum;
 mod selection_sort;
+mod topology_sort;
 
 fn main() {
     println!("Hello :)");
