@@ -1,6 +1,7 @@
 mod binary_search;
 mod breadth_first_search;
 mod depth_first_search;
+mod dijkstra;
 mod factorial;
 mod loop_max;
 mod loop_sum;

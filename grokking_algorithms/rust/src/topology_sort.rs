@@ -1,10 +1,12 @@
 use std::collections::HashMap;
 
+#[allow(dead_code)]
 struct TopologyGraph {
-    pub graph: HashMap<i64, Vec<i64>>,
-    pub v: i64,
+    graph: HashMap<i64, Vec<i64>>,
+    v: i64,
 }
 
+#[allow(dead_code)]
 impl TopologyGraph {
     pub fn new(v: i64) -> Self {
         Self {
@@ -14,6 +16,7 @@ impl TopologyGraph {
     }
 }
 
+#[allow(dead_code)]
 impl TopologyGraph {
     fn add_edge(&mut self, u: i64, v: i64) {
         match self.graph.get_mut(&u) {
