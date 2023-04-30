@@ -90,8 +90,6 @@ mod tests {
         graph.add_edge(2, 3, 2);
         graph.add_edge(0, 2, 15);
 
-        graph.dijkstra(0);
-
         let result = graph.dijkstra(0);
 
         assert_eq!(result, vec![0, 5, 11, 13])
@@ -104,8 +102,6 @@ mod tests {
         graph.add_edge(0, 3, 20);
         graph.add_edge(2, 0, 3);
         graph.add_edge(3, 2, 12);
-
-        graph.dijkstra(0);
 
         let result = graph.dijkstra(0);
 
@@ -129,8 +125,6 @@ mod tests {
         graph.add_edge(6, 7, 1);
         graph.add_edge(6, 8, 6);
         graph.add_edge(7, 8, 7);
-
-        graph.dijkstra(0);
 
         let result = graph.dijkstra(0);
 

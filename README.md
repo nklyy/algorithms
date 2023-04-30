@@ -35,6 +35,10 @@
 - 10 [BFS](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/breadth_first_search.rs)
 - 11 [DFS](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/depth_first_search.rs)
 - 12 [Topology Sort](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/topology_sort.rs)
+- 13 [Dijkstra](https://github.com/nklyy/algorithms/blob/master/grokking_algorithms/rust/src/dijkstra.rs)
+- 14 [Bellman Ford]()
+- 15 [Substring])
+- 16 [Subsequence]()
 <hr>
 
 ## Leetcode
