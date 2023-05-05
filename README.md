@@ -55,4 +55,6 @@
 
 > ***Rust*** <br>
 - 1 [Two Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/rust/src/two_sum.rs)
+- 35 [Search Insert Position](https://github.com/nklyy/algorithms/blob/master/leetcode/rust/src/search_insert.rs)
+- 189 [Rotate Array](https://github.com/nklyy/algorithms/blob/master/leetcode/rust/src/rotate_array.rs)
 <hr>
