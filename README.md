@@ -58,4 +58,7 @@
 - 35 [Search Insert Position](https://github.com/nklyy/algorithms/blob/master/leetcode/rust/src/search_insert.rs)
 - 189 [Rotate Array](https://github.com/nklyy/algorithms/blob/master/leetcode/rust/src/rotate_array.rs)
 - 278 [First Bad Version](https://github.com/nklyy/algorithms/blob/master/leetcode/rust/src/first_bad_version.rs)
+- 283 [Move Zeroes]()
+- 704 [Binary Search]()
+- 977 [Squares of a Sorted Array]()
 <hr>
