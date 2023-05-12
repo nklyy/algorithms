@@ -45,6 +45,8 @@
 
 > ***Golang*** <br>
 - 1 [Two Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/two_sum.go)
+- 9 [Palindrome Number](https://github.com/nklyy/algorithms/blob/master/leetcode/go/is_palindrome.go)
+- 13 [Roman to Integer](https://github.com/nklyy/algorithms/blob/master/leetcode/go/roman_to_int.go)
 - 35 [Search Insert Position](https://github.com/nklyy/algorithms/blob/master/leetcode/go/search_insert.go)
 - 189 [Rotate Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/rotate_array.go)
 - 278 [First Bad Version](https://github.com/nklyy/algorithms/blob/master/leetcode/go/first_bad_version.go)
