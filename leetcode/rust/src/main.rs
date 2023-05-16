@@ -1,5 +1,6 @@
 mod binary_search;
 mod first_bad_version;
+mod is_palindrome;
 mod move_zeroes;
 mod rotate_array;
 mod search_insert;
