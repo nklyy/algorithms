@@ -1,3 +1,3 @@
 module leetcode/go
 
-go 1.19
+go 1.26.3
