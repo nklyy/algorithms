@@ -57,6 +57,7 @@
 - 704 [Binary Search](https://github.com/nklyy/algorithms/blob/master/leetcode/go/binary_search.go)
 - 917 [Reverse Only Letters](https://github.com/nklyy/algorithms/blob/master/leetcode/go/reverse_only_letters.go)
 - 977 [Squares of a Sorted Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/sorted_squares.go)
+- 2000 [Reverse Prefix of Word](https://github.com/nklyy/algorithms/blob/master/leetcode/go/reverse_prefix.go)
 - 2540 [Minimum Common Value](https://github.com/nklyy/algorithms/blob/master/leetcode/go/minimum_common_value.go)
 
 
