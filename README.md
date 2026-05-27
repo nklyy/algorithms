@@ -60,6 +60,7 @@
 - 917 [Reverse Only Letters](https://github.com/nklyy/algorithms/blob/master/leetcode/go/reverse_only_letters.go)
 - 977 [Squares of a Sorted Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/sorted_squares.go)
 - 1004 [Max Consecutive Ones III](https://github.com/nklyy/algorithms/blob/master/leetcode/go/max_consecutive_ones_3.go)
+- 1208 [Get Equal Substrings Within Budget](https://github.com/nklyy/algorithms/blob/master/leetcode/go/get_equal_substring_with_budget.go)
 - 1456 [Maximum Number of Vowels in a Substring of Given Length](https://github.com/nklyy/algorithms/blob/master/leetcode/go/max_number_of_vowels.go)
 - 2000 [Reverse Prefix of Word](https://github.com/nklyy/algorithms/blob/master/leetcode/go/reverse_prefix.go)
 - 2540 [Minimum Common Value](https://github.com/nklyy/algorithms/blob/master/leetcode/go/minimum_common_value.go)
