@@ -46,3 +46,17 @@ func pivotIndex(nums []int) int {
 
 	return -1
 }
+
+// func pivotIndex(nums []int) int {
+// 	p := make([]int, len(nums)+1)
+// 	for i, n := range nums {
+// 		p[i+1] = p[i] + n
+// 	}
+// 	total := p[len(nums)]
+// 	for i := range nums {
+// 		if p[i] == total-p[i+1] {
+// 			return i
+// 		}
+// 	}
+// 	return -1
+// }
