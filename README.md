@@ -66,6 +66,7 @@
 - 1456 [Maximum Number of Vowels in a Substring of Given Length](https://github.com/nklyy/algorithms/blob/master/leetcode/go/max_number_of_vowels.go)
 - 1480 [Running Sum of 1d Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/running_sum_1d_array.go)
 - 1732 [Find the Highest Altitude](https://github.com/nklyy/algorithms/blob/master/leetcode/go/find_highest_altitude.go)
+- 1991 [Find the Middle Index in Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/find_middle_index.go)
 - 2000 [Reverse Prefix of Word](https://github.com/nklyy/algorithms/blob/master/leetcode/go/reverse_prefix.go)
 - 2090 [K Radius Subarray Averages](https://github.com/nklyy/algorithms/blob/master/leetcode/go/k_radius_subarray_avg.go)
 - 2540 [Minimum Common Value](https://github.com/nklyy/algorithms/blob/master/leetcode/go/minimum_common_value.go)
