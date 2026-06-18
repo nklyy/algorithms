@@ -53,6 +53,7 @@
 - 209 [Minimum Size Subarray Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/minimum_size_subarray_sum.go)
 - 278 [First Bad Version](https://github.com/nklyy/algorithms/blob/master/leetcode/go/first_bad_version.go)
 - 283 [Move Zeroes](https://github.com/nklyy/algorithms/blob/master/leetcode/go/move_zeroes.go)
+- 303 [Range Sum Query - Immutable](https://github.com/nklyy/algorithms/blob/master/leetcode/go/range_sum_query.go)
 - 344 [Reverse String](https://github.com/nklyy/algorithms/blob/master/leetcode/go/reverse_string.go)
 - 557 [Reverse Words in a String III](https://github.com/nklyy/algorithms/blob/master/leetcode/go/reverse_words_string_3.go)
 - 643 [Maximum Average Subarray I](https://github.com/nklyy/algorithms/blob/master/leetcode/go/maximum_average_subarray.go)
