@@ -71,6 +71,7 @@
 - 1991 [Find the Middle Index in Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/find_middle_index.go)
 - 2000 [Reverse Prefix of Word](https://github.com/nklyy/algorithms/blob/master/leetcode/go/reverse_prefix.go)
 - 2090 [K Radius Subarray Averages](https://github.com/nklyy/algorithms/blob/master/leetcode/go/k_radius_subarray_avg.go)
+- 2351 [First Letter to Appear Twice](https://github.com/nklyy/algorithms/blob/master/leetcode/go/first_letter_appear_twice.go)
 - 2540 [Minimum Common Value](https://github.com/nklyy/algorithms/blob/master/leetcode/go/minimum_common_value.go)
 
 
