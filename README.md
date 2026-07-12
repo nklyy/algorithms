@@ -51,6 +51,7 @@
 - 125 [Valid Palindrome](https://github.com/nklyy/algorithms/blob/master/leetcode/go/is_palindrome_str.go)
 - 189 [Rotate Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/rotate_array.go)
 - 209 [Minimum Size Subarray Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/minimum_size_subarray_sum.go)
+- 268 [Missing Number](https://github.com/nklyy/algorithms/blob/master/leetcode/go/missing_number.go)
 - 278 [First Bad Version](https://github.com/nklyy/algorithms/blob/master/leetcode/go/first_bad_version.go)
 - 283 [Move Zeroes](https://github.com/nklyy/algorithms/blob/master/leetcode/go/move_zeroes.go)
 - 303 [Range Sum Query - Immutable](https://github.com/nklyy/algorithms/blob/master/leetcode/go/range_sum_query.go)
