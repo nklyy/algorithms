@@ -68,6 +68,7 @@
 - 1208 [Get Equal Substrings Within Budget](https://github.com/nklyy/algorithms/blob/master/leetcode/go/get_equal_substring_with_budget.go)
 - 1413 [Minimum Value to Get Positive Step by Step Sum](https://github.com/nklyy/algorithms/blob/master/leetcode/go/minimum_value_to_get_pos_step.go)
 - 1426 [Counting Elements](https://github.com/nklyy/algorithms/blob/master/leetcode/go/counting_elements.go)
+- 1436 [Destination City](https://github.com/nklyy/algorithms/blob/master/leetcode/go/destination_city.go)
 - 1456 [Maximum Number of Vowels in a Substring of Given Length](https://github.com/nklyy/algorithms/blob/master/leetcode/go/max_number_of_vowels.go)
 - 1480 [Running Sum of 1d Array](https://github.com/nklyy/algorithms/blob/master/leetcode/go/running_sum_1d_array.go)
 - 1732 [Find the Highest Altitude](https://github.com/nklyy/algorithms/blob/master/leetcode/go/find_highest_altitude.go)
